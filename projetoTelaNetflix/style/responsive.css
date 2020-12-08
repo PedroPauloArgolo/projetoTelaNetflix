@@ -1,0 +1,18 @@
+/*Media query*/
+@media screen and (max-width: 700px){ /* Aplicando a regra abaixo de media na tela e também quando ela for de até no max 700 px*/
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 180px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1000px){ /* Cria uma regra de media(@media) de tela e que abaixo de 1000px, o texto tenha 50% de largura*/
+    .descricao{
+        width: 50%;
+    }
+}
